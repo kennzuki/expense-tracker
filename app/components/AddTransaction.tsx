@@ -1,4 +1,4 @@
-import React from 'react';
+'use client'
 
 function AddTransaction() {
   return (
@@ -15,7 +15,7 @@ function AddTransaction() {
           <label htmlFor='' className=''>
             Amount in kshs of transaction
           </label>
-          <input type='text' className='border rounded p-2' placeholder='Amount transacted' />
+          <input type='number'  className='border rounded p-2' placeholder='Amount transacted' />
         </section>
         <button className='py-1 px-3 rounded text-white bg-blue-500 w-full'>
           Add transaction
